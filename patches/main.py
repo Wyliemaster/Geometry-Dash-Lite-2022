@@ -9,7 +9,9 @@ with open(patch_json["input_file"], "rb") as f:
 
 for x in patch_json["patches"]:
     for idx, item in enumerate(x["patches"]):
-        b[int(x["offset"], 16) + idx] = int(item, 16)
+        if x["enabled"]:
+            print(f"{x['name']} Patched")
+            b[int(x["offset"], 16) + idx] = int(item, 16)
 
 with open("libcocos2dcpp.so", "wb") as f:
     f.write(b)

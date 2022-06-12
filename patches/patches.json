@@ -1,0 +1,289 @@
+{
+    "input_file": "libcocos2dcpp_not_modified.so",
+    "patches": [
+        {
+            "name": "Online Unlock",
+            "offset": "0x461BE0",
+            "patches": [
+                "0xe8",
+                "0x02",
+                "0x00",
+                "0x14"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "Online Unlock part 2",
+            "offset": "0x52BA14",
+            "patches": [
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5",
+                "0x1f",
+                "0x20",
+                "0x03",
+                "0xd5"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "Online Unlock part 3 (crash)",
+            "offset": "0x52B2A4",
+            "patches": [
+                "0x1f",
+                "0x20",
+                "0x02",
+                "0xd5"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "Swap OnFull Texture",
+            "offset": "0xBCBD18",
+            "patches": [
+                "0x47",
+                "0x4a",
+                "0x5f",
+                "0x63",
+                "0x72",
+                "0x65",
+                "0x61",
+                "0x74",
+                "0x6f",
+                "0x72",
+                "0x42",
+                "0x74",
+                "0x6e",
+                "0x5f",
+                "0x30",
+                "0x30",
+                "0x31",
+                "0x2e",
+                "0x70",
+                "0x6e",
+                "0x67"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "Icon Unlock",
+            "offset": "0x480494",
+            "patches": [
+                "0x3f",
+                "0xd0",
+                "0x07",
+                "0x71"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "Icon Unlock Part 2",
+            "offset": "480514",
+            "patches": [
+                "0x3f",
+                "0xd0",
+                "0x07",
+                "0x71"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "2.2 Ships",
+            "offset": "0x47C864",
+            "patches": [
+                "0x20",
+                "0x15",
+                "0x80",
+                "0x52"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "2.2 Ships part 2 (Not Working)",
+            "offset": "0x4ADF0C",
+            "patches": [
+                "0x3f",
+                "0xd0",
+                "0x07",
+                "0x71"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Color Unlock",
+            "offset": "0x480950",
+            "patches": [
+                "0x3f",
+                "0xd0",
+                "0x07",
+                "0x71"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "All Official Levels",
+            "offset": "0x5C7DB8",
+            "patches": [
+                "0x7f",
+                "0x62",
+                "0x00",
+                "0x71"
+            ],
+            "enabled": true
+        },
+        {
+            "name": "Replace TOS Popup with Area Tint Trigger",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x24",
+                "0x6f",
+                "0x04",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Shader Trigger",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x30",
+                "0x54",
+                "0x04",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Gameplay Rotate Trigger (arrow)",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x8E",
+                "0x0E",
+                "0x04",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Advanced Follow Trigger",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x9D",
+                "0x9C",
+                "0x04",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Options2 Trigger",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x63",
+                "0x58",
+                "0x02",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Gravity Mod Trigger",
+            "offset": "0x6978c8",
+            "patches": [
+                "0xC8",
+                "0x57",
+                "0x03",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Enter Effect popup",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x0b",
+                "0x87",
+                "0x04",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Teleport popup",
+            "offset": "0x6978c8",
+            "patches": [
+                "0xf0",
+                "0x13",
+                "0x04",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with level end",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x46",
+                "0x2a",
+                "0x02",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with Camera Guide",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x32",
+                "0x1d",
+                "0x03",
+                "0x14"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "Replace TOS Popup with MG Trigger",
+            "offset": "0x6978c8",
+            "patches": [
+                "0x67",
+                "0xa4",
+                "0x04",
+                "0x14"
+            ],
+            "enabled": false
+        }
+    ]
+}
