@@ -7,7 +7,7 @@
 
 ## Headers
 
-- Reversed the `ARM64-v8a` binary 
+- Reversed the `ARM64-v8a` binary - SHA256: `873c4e57da1a033ea486971791499dab617e4870bff1a829f5612bb56ba95eb7`
 
 
 ## Notes
