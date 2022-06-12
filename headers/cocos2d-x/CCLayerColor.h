@@ -1,3 +1,5 @@
+
+// sizeof(cocos2d::CCLayerColor) -> 0x210
 struct cocos2d::CCLayerColor : public cocos2d::CCLayerRGBA, public cocos2d::CCBlendProtocol
 {
 public:

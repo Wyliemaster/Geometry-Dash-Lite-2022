@@ -1,3 +1,4 @@
+// sizeof(cocos2d::CCLayerRGBA) -> 0x1A0
 struct cocos2d::CCLayerRGBA : public cocos2d::CCLayer, public cocos2d::CCRGBAProtocol
 {
 public:

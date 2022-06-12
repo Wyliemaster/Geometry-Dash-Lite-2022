@@ -1,6 +1,3 @@
-#ifndef __CCOBJECT_H__
-#define __CCOBJECT_H__
-
 // sizeof(cocos2d::CCObject) -> 0x34
 struct CCObject : public CCCopying
 {
@@ -17,5 +14,3 @@ public:
     int m_nZOrder;
     unsigned int m_uOrderOfArrival;
 };
-
-#endif

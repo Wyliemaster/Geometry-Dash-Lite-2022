@@ -1,5 +1,3 @@
-#ifndef __GAMESTATSMANAGER_H__
-#define __GAMESTATSMANAGER_H__
 
 // Sizeof(GameStatsManager) -> 0x2D0 
 struct GameStatsManager : public cocos2d::CCNode
@@ -50,6 +48,3 @@ public:
   cocos2d::CCDictionary *m_pUnk2;
   cocos2d::CCDictionary *m_pItemUnlockStates;
 };
-
-
-#endif

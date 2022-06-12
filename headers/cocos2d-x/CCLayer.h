@@ -1,6 +1,5 @@
-#ifndef __CCLAYER_H__
-#define __CCLAYER_H__
 
+// sizeof(cocos2d::CCLayer) -> 0x188
 struct cocos2d::CCLayer : public cocos2d::CCNode, public cocos2d::CCTouchDelegate, public cocos2d::CCAccelerometerDelegate, public cocos2d::CCKeypadDelegate, public cocos2d::CCKeyboardDelegate, public cocos2d::CCMouseDelegate
 {
 public:
@@ -17,4 +16,3 @@ public:
 };
 
 
-#endif
